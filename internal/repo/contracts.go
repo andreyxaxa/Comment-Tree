@@ -3,7 +3,7 @@ package repo
 import (
 	"context"
 
-	"github.com/andreyxaxa/1/internal/entity"
+	"github.com/andreyxaxa/Comment-Tree/internal/entity"
 )
 
 type (
