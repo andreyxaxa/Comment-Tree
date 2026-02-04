@@ -6,7 +6,7 @@ import (
 	"errors"
 	"time"
 
-	"github.com/andreyxaxa/1/pkg/logger"
+	"github.com/andreyxaxa/Comment-Tree/pkg/logger"
 	"github.com/gofiber/fiber/v2"
 	"golang.org/x/sync/errgroup"
 )
