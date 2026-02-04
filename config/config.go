@@ -8,9 +8,10 @@ import (
 
 type (
 	Config struct {
-		HTTP HTTP
-		Log  Log
-		PG   PG
+		HTTP    HTTP
+		Log     Log
+		PG      PG
+		Swagger Swagger
 	}
 
 	HTTP struct {
@@ -24,6 +25,10 @@ type (
 	PG struct {
 		PoolMax int    `env:"PG_POOL_MAX,required"`
 		URL     string `env:"PG_URL,required"`
+	}
+
+	Swagger struct {
+		Enabled bool `env:"SWAGGER_ENABLED" envDefault:"false"`
 	}
 )
 
