@@ -23,6 +23,7 @@ require (
 
 require (
 	github.com/Masterminds/squirrel v1.5.4
+	github.com/caarlos0/env/v11 v11.3.1
 	github.com/gofiber/fiber/v2 v2.52.11
 	github.com/jackc/pgx/v5 v5.8.0
 	github.com/mattn/go-colorable v0.1.13 // indirect
