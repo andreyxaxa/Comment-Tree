@@ -151,4 +151,33 @@ paths:
       summary: Create new comment
       tags:
       - comments
+  /v1/comments/{id}:
+    delete:
+      description: Deletes comment by ID
+      parameters:
+      - description: Comment ID
+        in: path
+        name: id
+        required: true
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "204":
+          description: No Content
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/response.Error'
+        "404":
+          description: Not Found
+          schema:
+            $ref: '#/definitions/response.Error'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/response.Error'
+      summary: Delete comments
+      tags:
+      - comments
 swagger: "2.0"

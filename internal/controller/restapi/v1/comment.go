@@ -138,11 +138,12 @@ func (r *V1) getComments(ctx *fiber.Ctx) error {
 // @Description Deletes comment by ID
 // @Tags comments
 // @Produce json
-// @Param id query string true "Comment ID"
+// @Param id path int true "Comment ID"
 // @Success 204
 // @Failure 400 {object} response.Error
 // @Failure 404 {object} response.Error
 // @Failure 500 {object} response.Error
+// @Router /v1/comments/{id} [delete]
 func (r *V1) deleteCommentTree(ctx *fiber.Ctx) error {
 	id, err := ctx.ParamsInt("id")
 	if err != nil {
