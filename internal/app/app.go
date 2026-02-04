@@ -33,7 +33,7 @@ func Run(cfg *config.Config) {
 
 	// HTTP Server
 	httpServer := httpserver.New(l, httpserver.Port(cfg.HTTP.Port))
-	restapi.NewRouter(httpServer.App, commentUseCase, l)
+	restapi.NewRouter(httpServer.App, cfg, commentUseCase, l)
 
 	// Start Server
 	httpServer.Start()
