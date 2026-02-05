@@ -1,7 +1,7 @@
 # Comment Tree — древовидные комментарии с навигацией и поиском
 Сервис для работы с древовидными комментариями, поддерживающий неограниченную вложенность и дополнительные функции - поиск, сортировка и постраничный вывод.
 
-[Старт](https://github.com/andreyxaxa/URL-Shortener?tab=readme-ov-file#%D0%B7%D0%B0%D0%BF%D1%83%D1%81%D0%BA)
+[Старт](https://github.com/andreyxaxa/Comment-Tree?tab=readme-ov-file#%D0%B7%D0%B0%D0%BF%D1%83%D1%81%D0%BA)
 
 ## Обзор
 
