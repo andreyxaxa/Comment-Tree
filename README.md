@@ -37,6 +37,7 @@
    ```
 4. Перейдите на http://localhost:8080/v1/ui и пользуйтесь сервисом.
 <img width="1429" height="1017" alt="image" src="https://github.com/user-attachments/assets/db5f6a4d-d995-4eb3-8787-c42da564e456" />
+
 - Перейдите на http://localhost:8080/swagger и ознакомьтесь с API, если хотите взаимодействовать с сервисом вручную или из стороннего сервиса.
 
 ## Прочие `make` команды
